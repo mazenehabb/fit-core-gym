@@ -18,26 +18,45 @@
 .content-hero{
     width: 50%;
     float: left;
-    background-color: blue;
+    /* background-color: blue; */
+}
+.content-hero h1{
+    font-weight: 900;
 }
 .content-hero p{
     font-size: 24px;
     color: #5B6773;
+    font-weight: lighter;
 }
 .img-hero{
     width: 50%;
     float: left;
     height: 500px; 
-    background-color: red;
+    /* background-color: red; */
+    text-align: center;
 
 }
 img{
-    width: 100%;
-    margin: 20px;
+    width: 60%;
+    margin: 50px auto;
     border-radius: 5%;
     border: black solid 3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.buttons-content-hero{
-    background-color: green;
+.btn-hero-black{
+    padding: 20px 30px;
+    margin: 0 5px 0 0;
+    font-size: 20px;
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+}
+.btn-hero-white{
+    background-color: white;
+    color: rgb(38, 38, 38);
+    font-size: 20px;
+    border: 2px solid gray;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 0 0 0 5px;
 }
