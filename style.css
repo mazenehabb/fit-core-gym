@@ -3,7 +3,9 @@
     margin: 0 auto;
     
 }
-
+.hero{
+    margin-bottom: 50px;
+}
 .clear-float{
     clear: both;
 }
@@ -21,18 +23,18 @@
     /* background-color: blue; */
 }
 .content-hero h1{
-    font-weight: 900;
+    font-weight: bold;
 }
 .content-hero p{
     font-size: 24px;
     color: #5B6773;
-    font-weight: lighter;
+    
+    padding: 0;
 }
 .img-hero{
     width: 50%;
     float: left;
     height: 500px; 
-    /* background-color: red; */
     text-align: center;
 
 }
@@ -40,8 +42,7 @@ img{
     width: 60%;
     margin: 50px auto;
     border-radius: 5%;
-    border: black solid 3px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: black solid 1px;
 }
 .btn-hero-black{
     padding: 20px 30px;
@@ -59,4 +60,127 @@ img{
     padding: 20px 30px;
     border-radius: 10px;
     margin: 0 0 0 5px;
+}
+
+.about-us{
+     margin-top: 50px;
+}
+.about-header{
+    text-align: center;
+}
+.about-header h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.about-header p{
+    font-size: 22px;
+    color: #5B6773;
+    width: 60%;
+    margin: auto;
+}
+/* .section-card{
+    background-color: red;
+} */
+.section-card h3{
+    font-size: 22px;
+}
+.card-about-us{
+    background-color: #DBEAFE;
+    width: 25%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+}
+ .green-card-about-us{
+    background-color: #D0FAE5;
+    width: 25%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+}
+ .blue-traingle{
+    background-color: #155DFC;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    border:17px #155DFC solid ;
+    border-radius: 30%;
+}
+.green-traingle{
+ background-color: #009966;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    border:17px #009966 solid ;
+    border-radius: 30%;
+}
+.purple-card-about-us{
+   background-color: #F3E8FF;
+    width: 25%;
+    padding: 34px;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    margin: 20px;
+}
+.Purple-traingle{
+    background-color: #9810FA;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    border:17px #9810FA solid ;
+    border-radius: 30%;
+}
+.white-traingle{
+   background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 30%; 
+}
+.white-circle{
+   background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+}
+/*
+.white-traingle{
+    
+    background-color: white;
+    height: 25px;
+}
+
+.center{
+    width: 100%;
+} */
+
+.traingle-test{
+    padding: 1px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border:3px #155DFC solid ;
+    border-radius: 30%;
+}
+.traingle-test1{
+   
+    background-color: #155DFC;
+    width: 50px;
+    height: 50px;
+    border:20px #155DFC solid ;
+    margin: auto;
+    border-radius: 20%;
+}
+.traingle-test2{
+    
+    background-color: rgb(122, 15, 15);
+    width: 50px;
+    height: 50px;
+    border:1px #155DFC solid ;
+    border-radius: 30%;
 }
