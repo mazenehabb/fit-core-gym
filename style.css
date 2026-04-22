@@ -248,7 +248,7 @@ img{
 }
 .card-our-members-1{
    width: 30%;
-   margin: 0 20px 0 0;
+   margin: 0 35px 0 0;
     float: left;
     background-color: #EFF6FF;
     border: #D6E8FF 2px solid;
@@ -257,7 +257,7 @@ img{
 }
 .card-our-members-2{
    width: 30%;
-   margin: 0 30px 0 0;
+   margin: 0 17.5px;
     float: left;
     background-color: #ECFDF5;
      border: 2px solid #C3F8DF;
@@ -265,7 +265,7 @@ img{
 }
 .card-our-members-3{
     width: 30%;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 35px;
     float: left;
     background-color: #FAF5FF;
     border: #F2E5FF 2px solid;
